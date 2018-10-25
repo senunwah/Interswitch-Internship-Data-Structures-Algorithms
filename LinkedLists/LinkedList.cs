@@ -28,6 +28,13 @@ namespace LinkedLists
             else
                 Console.WriteLine("Value Not Found");
 
+            if (l.Delete("John"))
+                Console.WriteLine("Value has been deleted");
+            else
+                Console.WriteLine("Deletion not successful");
+
+            l.Print();
+
             Console.Read();
         }
         
@@ -59,6 +66,26 @@ namespace LinkedLists
                     return true;
                 }
                 tmp = tmp.next;
+            }
+            return false;
+        }
+
+        public bool Delete(string value)
+        {
+            Node tmp = head;
+            Node prev = head;
+            while(tmp != null)
+            {
+                if (tmp.data == value)
+                {
+                    prev.next = tmp.next;
+                    return true;
+                }
+                else
+                {
+                    prev = tmp.next;
+                    tmp = tmp.next;
+                }
             }
             return false;
         }
