@@ -25,7 +25,7 @@ namespace Stack_with_LinkedLists
 
             for (int i = 0; i < 10; i++)
             {
-                sl.Delete(i);
+                sl.Delete();
             }
 
             sl.Print();
@@ -38,45 +38,29 @@ namespace Stack_with_LinkedLists
         {
             Node tmp = new Node { data = d };
             tmp.next = head;
-
             if (head != null)
                 head.prev = tmp;
             
                 head = tmp;
 
             if (head.next == null)
-                tail = head;
-            
+                tail = head;          
         }
 
-        public bool Delete(int n)
+        public void Delete()
         {
             Node current = head;
-            Node previous = head;
-            
-            while (current != null)
-            {
-                if (current.data == n)
-                {
-                    previous.next = current.next;
-                    return true;
-                }
-                else
-                {
-                    previous = current;
-                    current = current.next;
-                }
-            }
-            return false;
+            current = current.next;
+            head = current;
         }
 
         public void Print()
         {
-            Node tmp = head;
-            while(tmp != null)
+            Node tmp = tail;
+            while(tmp != null & tmp != head.prev)
             {
                 Console.WriteLine(tmp.data);
-                tmp = tmp.next;
+                tmp = tmp.prev;
             }
         }
     }

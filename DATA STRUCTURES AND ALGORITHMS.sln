@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palindrome", "Palindrome\Pa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Combine Arrays with Lock Step", "CombineArrays\Combine Arrays with Lock Step.csproj", "{C8300C91-2496-46EC-826E-3468F49E89C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Create a Node", "Create a Node\Create a Node.csproj", "{B471F6C2-EF1F-47BA-BCFB-1DBDC575761D}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedLists", "LinkedLists\LinkedLists.csproj", "{1E43E0C4-5C60-4A75-83C1-9539B07BADEB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rectangle Shaded Area Intersection", "ConsoleApplication1\Rectangle Shaded Area Intersection.csproj", "{C2AEF8C3-C077-4CB3-A94C-091F61D7DC0B}"
@@ -75,22 +73,6 @@ Global
 		{C8300C91-2496-46EC-826E-3468F49E89C7}.Release|x64.Build.0 = Release|Any CPU
 		{C8300C91-2496-46EC-826E-3468F49E89C7}.Release|x86.ActiveCfg = Release|Any CPU
 		{C8300C91-2496-46EC-826E-3468F49E89C7}.Release|x86.Build.0 = Release|Any CPU
-		{B471F6C2-EF1F-47BA-BCFB-1DBDC575761D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B471F6C2-EF1F-47BA-BCFB-1DBDC575761D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B471F6C2-EF1F-47BA-BCFB-1DBDC575761D}.Debug|ARM.ActiveCfg = Debug|Any CPU
-		{B471F6C2-EF1F-47BA-BCFB-1DBDC575761D}.Debug|ARM.Build.0 = Debug|Any CPU
-		{B471F6C2-EF1F-47BA-BCFB-1DBDC575761D}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{B471F6C2-EF1F-47BA-BCFB-1DBDC575761D}.Debug|x64.Build.0 = Debug|Any CPU
-		{B471F6C2-EF1F-47BA-BCFB-1DBDC575761D}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{B471F6C2-EF1F-47BA-BCFB-1DBDC575761D}.Debug|x86.Build.0 = Debug|Any CPU
-		{B471F6C2-EF1F-47BA-BCFB-1DBDC575761D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B471F6C2-EF1F-47BA-BCFB-1DBDC575761D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B471F6C2-EF1F-47BA-BCFB-1DBDC575761D}.Release|ARM.ActiveCfg = Release|Any CPU
-		{B471F6C2-EF1F-47BA-BCFB-1DBDC575761D}.Release|ARM.Build.0 = Release|Any CPU
-		{B471F6C2-EF1F-47BA-BCFB-1DBDC575761D}.Release|x64.ActiveCfg = Release|Any CPU
-		{B471F6C2-EF1F-47BA-BCFB-1DBDC575761D}.Release|x64.Build.0 = Release|Any CPU
-		{B471F6C2-EF1F-47BA-BCFB-1DBDC575761D}.Release|x86.ActiveCfg = Release|Any CPU
-		{B471F6C2-EF1F-47BA-BCFB-1DBDC575761D}.Release|x86.Build.0 = Release|Any CPU
 		{1E43E0C4-5C60-4A75-83C1-9539B07BADEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1E43E0C4-5C60-4A75-83C1-9539B07BADEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E43E0C4-5C60-4A75-83C1-9539B07BADEB}.Debug|ARM.ActiveCfg = Debug|Any CPU

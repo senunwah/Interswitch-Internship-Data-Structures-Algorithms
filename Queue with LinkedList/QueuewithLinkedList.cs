@@ -9,7 +9,7 @@ namespace Queue_with_LinkedList
 
     class Node
     {
-        public Node next = new Node();
+        public Node next,prev;
         public int data;
     }
 
@@ -23,7 +23,7 @@ namespace Queue_with_LinkedList
             q.Add(1);
             q.Add(2);
             q.Add(3);
-            q.Print();
+            
             //q.Remove();
             Console.WriteLine("----------------");
             q.Print();
@@ -32,31 +32,16 @@ namespace Queue_with_LinkedList
 
         public void Add(int data)
         {
-            Node tmp = new Node
-            {
-                data = data
-            };
-
-            if (head == null)
-                head = tmp;
-            else if (head != null)
-            {
-                tail.next = tmp;
-                tail = tmp;
-            }
+            Node tmp = new Node{data = data};
+            tmp.next = head;
+            head = tmp;
                 
         }
 
-        public int Remove()
+        public bool Delete()
         {
             Node tmp = head;
-            if (tmp != null)
-            {
-                head = head.next;
-                return tmp.data;
-            }
-            else
-                return 0;
+            
         }
 
         public void Print()
