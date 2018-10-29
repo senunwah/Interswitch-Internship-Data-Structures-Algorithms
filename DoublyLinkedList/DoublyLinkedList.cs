@@ -91,6 +91,7 @@ namespace LinkedLists
 
         public void AddDoubly(string data)
         {
+            
             Node temp = new Node();
             temp.data = data;
             temp.next = head;
