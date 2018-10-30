@@ -23,34 +23,42 @@ namespace Queue_with_LinkedList
             q.Add(1);
             q.Add(2);
             q.Add(3);
-            
-            //q.Remove();
+
+            q.Delete();
+
             Console.WriteLine("----------------");
             q.Print();
             Console.ReadLine();
         }
 
-        public void Add(int data)
+        public void Add(int d)
         {
-            Node tmp = new Node{data = data};
+            Node tmp = new Node{data = d};
             tmp.next = head;
             head = tmp;
-                
+
+            if (head.next != null)
+                head.prev = tmp;
+
+            if (head.next == null)
+                tail = head;
+      
         }
 
-        public bool Delete()
+        public void Delete()
         {
-            Node tmp = head;
-            
+            Node lastnode = tail;
+            lastnode = lastnode.prev;
+            tail = lastnode;        
         }
 
         public void Print()
         {
-            Node tmp = head;
+            Node tmp = tail;
             while (tmp != null)
             {
-                Console.WriteLine("{0}", tmp.data);
-                tmp = tmp.next;
+                Console.WriteLine(tmp.data);
+                tmp = tmp.prev;
             }
         }
     }
