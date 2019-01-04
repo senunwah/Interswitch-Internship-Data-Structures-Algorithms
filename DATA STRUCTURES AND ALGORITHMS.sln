@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoublyLinkedList", "DoublyL
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stack with LinkedLists", "Stack with LinkedLists\Stack with LinkedLists.csproj", "{7CD01DDB-7936-421D-A6A0-935D810FF897}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rectangle Shaded Aread", "Rectangle Shaded Aread\Rectangle Shaded Aread.csproj", "{D703D8A0-8097-4D81-90EA-B322269525D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -249,6 +251,22 @@ Global
 		{7CD01DDB-7936-421D-A6A0-935D810FF897}.Release|x64.Build.0 = Release|Any CPU
 		{7CD01DDB-7936-421D-A6A0-935D810FF897}.Release|x86.ActiveCfg = Release|Any CPU
 		{7CD01DDB-7936-421D-A6A0-935D810FF897}.Release|x86.Build.0 = Release|Any CPU
+		{D703D8A0-8097-4D81-90EA-B322269525D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D703D8A0-8097-4D81-90EA-B322269525D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D703D8A0-8097-4D81-90EA-B322269525D0}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{D703D8A0-8097-4D81-90EA-B322269525D0}.Debug|ARM.Build.0 = Debug|Any CPU
+		{D703D8A0-8097-4D81-90EA-B322269525D0}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D703D8A0-8097-4D81-90EA-B322269525D0}.Debug|x64.Build.0 = Debug|Any CPU
+		{D703D8A0-8097-4D81-90EA-B322269525D0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D703D8A0-8097-4D81-90EA-B322269525D0}.Debug|x86.Build.0 = Debug|Any CPU
+		{D703D8A0-8097-4D81-90EA-B322269525D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D703D8A0-8097-4D81-90EA-B322269525D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D703D8A0-8097-4D81-90EA-B322269525D0}.Release|ARM.ActiveCfg = Release|Any CPU
+		{D703D8A0-8097-4D81-90EA-B322269525D0}.Release|ARM.Build.0 = Release|Any CPU
+		{D703D8A0-8097-4D81-90EA-B322269525D0}.Release|x64.ActiveCfg = Release|Any CPU
+		{D703D8A0-8097-4D81-90EA-B322269525D0}.Release|x64.Build.0 = Release|Any CPU
+		{D703D8A0-8097-4D81-90EA-B322269525D0}.Release|x86.ActiveCfg = Release|Any CPU
+		{D703D8A0-8097-4D81-90EA-B322269525D0}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
